@@ -1,0 +1,75 @@
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.total-value {
+  color: #171f46;
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .total-value {
+    font-size: 30px;
+  }
+}
+
+.order-label {
+  color: #616e7c;
+  font-family: Roboto;
+  font-size: 16px;
+  margin-right: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .order-label {
+    font-size: 18px;
+  }
+}
+
+.total-item {
+  font-family: Roboto;
+  color: #616e7c;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .total-item {
+    font-size: 15px;
+  }
+}
+
+.check-btn {
+  background-color: #0b69ff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 8px;
+}
+
+@media screen and (max-width: 767px) {
+  .check-btn {
+    min-width: 30%;
+    align-self: flex-end;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .d-sm-none {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .d-lg-none {
+    display: none;
+  }
+}
